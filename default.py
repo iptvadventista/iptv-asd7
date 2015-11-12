@@ -17,11 +17,11 @@ import os
 import sys
 import plugintools
 
-YOUTUBE_CHANNEL_ID = "tvalacarta"
+YOUTUBE_CHANNEL_ID = "centraljaradio"
 
 # Entry point
 def run():
-    plugintools.log("tvalacarta.run")
+    plugintools.log("centraljaradio.run")
     
     # Get params
     params = plugintools.get_params()
@@ -36,7 +36,7 @@ def run():
 
 # Main menu
 def main_list(params):
-    plugintools.log("tvalacarta.main_list "+repr(params))
+    plugintools.log("centraljaradio.main_list "+repr(params))
 
     # On first page, pagination parameters are fixed
     if params.get("url") is None:
